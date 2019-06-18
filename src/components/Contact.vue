@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Contact',
+  name: 'Contact', 
   data(){
     return {
       email: 'nsleung@esrichina.hk',
