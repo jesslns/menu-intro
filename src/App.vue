@@ -1,13 +1,20 @@
 <template>
   <div id="app">
+    <nav1></nav1>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
+// import nav bar component to all the pages
+import Navigation from './components/Nav'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'nav1': Navigation
+  }
 }
 </script>
 
