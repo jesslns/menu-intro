@@ -1,6 +1,6 @@
 <template>
     <div> 
-        <h2>Nav Bar</h2> 
+        <!-- <h2>Nav Bar</h2>  -->
         <nav> 
             <router-link class="spacing" 
                         v-for="link in links"
@@ -23,8 +23,8 @@ export default {
           // objects that specify the ID, what text to display, and the path to go to
           {
               id: 0,
-              text: 'Hellow World',
-              page: '/HellowWorld'
+              text: 'Hello World',
+              page: '/HelloWorld'
           },
           {
               id: 1,
@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style>
+nav:hover {
+    background-color: lightgreen;
+}
 .spacing {
     Margin-right: 10px;
 }
