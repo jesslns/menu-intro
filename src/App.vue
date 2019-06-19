@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav1></nav1>
+    <navigation></navigation>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -13,7 +13,7 @@ import Navigation from './components/Nav'
 export default {
   name: 'App',
   components: {
-    'nav1': Navigation
+    'navigation': Navigation
   }
 }
 </script>
